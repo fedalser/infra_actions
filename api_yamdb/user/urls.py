@@ -2,7 +2,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from .views import get_jwt, send_code, UserViewSet
+from user.views import get_jwt, send_code, UserViewSet
 
 app_name = "user"
 
